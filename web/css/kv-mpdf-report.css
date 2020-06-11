@@ -1,0 +1,42 @@
+/*
+    inline add to 
+        @vendor/kartik-v/yii2-mpdf/assets/kv-mpdf-bootstrap.min.cs
+    for use gridview->export->pdf
+    use in company/view etc.
+    
+*/
+/**************************************/
+/* use in stock movement */
+/**************************************/
+body {
+    font-family: "Garuda";
+    font-size: 14px;
+
+    /*font-family: "sarabun";    */
+    /*/font-size: 24px;*/
+}
+ 
+ thead,th,td  { 
+    text-align: left;
+
+/* border: 1px solid black;  */
+ }
+
+.numfmt {
+    text-align: right;
+}
+
+
+.Header_Detai_Desc {
+    width: 200px;
+    /* overflow: hidden;
+    display: inline-block;
+    white-space: nowrap;     */
+
+}
+
+.DataCell_Detail ,td{
+    vertical-align:top
+}
+/* ---------------------------      */
+

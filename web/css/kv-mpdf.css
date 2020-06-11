@@ -1,0 +1,30 @@
+/*
+    inline add to 
+        @vendor/kartik-v/yii2-mpdf/assets/kv-mpdf-bootstrap.min.cs
+    for use gridview->export->pdf
+    use in company/view etc.
+    
+*/
+/**************************************/
+/* user krajee gridview export to pdf */
+/**************************************/
+body {
+    font-family: "Garuda";
+    font-size: 14px;
+}
+
+.table-bordered {
+    border: none;
+}
+
+.table-bordered thead tr th,
+.table-bordered tbody tr th,
+.table-bordered tbody tr td {
+    border: none;
+}
+
+.table-bordered thead tr th,
+{
+    border-bottom: 20px solid #ddd;
+    border-bottom-width: 2px;
+}
